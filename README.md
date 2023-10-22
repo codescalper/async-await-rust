@@ -17,6 +17,32 @@ This project is vital for developers learning asynchronous programming in Rust. 
 ## Setup and Usage
 
 1. Clone this repository using Git:
-   ```bash
-   git clone https://github.com/codescalper/async-await-rust.git
-   ```
+
+```bash
+git clone https://github.com/codescalper/async-await-rust.git
+```
+
+2.  Navigate to the project directory:
+
+```bash
+cd async-await-rust
+```
+
+3.  Build and run the project with Cargo:
+
+```bash
+cargo run
+```
+
+This will execute the asynchronous HTTP request and display the response.
+
+## Use Cases
+
+1.  **Asynchronous Web Requests**: This project can be used as a reference for making asynchronous web requests in Rust, which is essential for web scraping, API interactions, and more.
+2.  **Error Handling**: It demonstrates how to handle errors and provide structured error messages in asynchronous code, which is crucial for robust and reliable applications.
+
+For more in-depth information on the crates used, please refer to the provided doc links.
+
+---
+
+For questions or discussions, feel free to reach out on Twitter: [@mayanks_tw](https://twitter.com/mayanks_tw).
